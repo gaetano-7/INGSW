@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.HomeController">
+   <children>
+      <Pane layoutX="60.0" layoutY="100.0" prefHeight="225.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/milan.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="bottoneMilan" layoutX="156.0" layoutY="186.0" mnemonicParsing="false" onAction="#clickMilan" prefHeight="25.0" prefWidth="30.0" text="+">
+               <font>
+                  <Font size="10.5" />
+               </font>
+            </Button>
+            <Label fx:id="nomeMil" layoutX="52.0" layoutY="6.0" text="Kit AC Milan 2024" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Label fx:id="prezzoMilan" layoutX="25.0" layoutY="190.0" text="€ 139.99" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <ChoiceBox fx:id="taglieMil" layoutX="84.0" layoutY="186.0" prefHeight="25.0" prefWidth="57.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="100.0" prefHeight="225.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/juve.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nomeJuv" layoutX="46.0" layoutY="6.0" text="Kit FC Juventus 2024" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Label fx:id="prezzoJuve" layoutX="25.0" layoutY="188.0" text="€ 139.99" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Button fx:id="bottoneJuve" layoutX="156.0" layoutY="184.0" mnemonicParsing="false" onAction="#clickJuve" prefHeight="25.0" prefWidth="30.0" text="+">
+               <font>
+                  <Font size="10.5" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="taglieJuv" layoutX="88.0" layoutY="184.0" prefHeight="25.0" prefWidth="57.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="542.0" layoutY="100.0" prefHeight="225.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/realMadrid.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nomeReal" layoutX="37.0" layoutY="6.0" text="Kit CF Real Madrid 2024" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Label fx:id="PrezzoReal" layoutX="25.0" layoutY="186.0" text="€ 139.99" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Button fx:id="bottoneReal" layoutX="156.0" layoutY="182.0" mnemonicParsing="false" onAction="#clickReal" prefHeight="25.0" prefWidth="30.0" text="+">
+               <font>
+                  <Font size="10.5" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="taglieReal" layoutX="85.0" layoutY="182.0" prefHeight="25.0" prefWidth="57.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="60.0" layoutY="363.0" prefHeight="225.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/manchesterCity.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nomeCity" layoutX="26.0" layoutY="6.0" text="Kit FC Manchester City 2024" textFill="WHITE" />
+            <Label fx:id="prezzoCity" layoutX="26.0" layoutY="187.0" text="€ 139.99" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Button fx:id="bottoneCity" layoutX="156.0" layoutY="183.0" mnemonicParsing="false" onAction="#clickCity" prefHeight="25.0" prefWidth="30.0" text="+">
+               <font>
+                  <Font size="10.5" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="taglieCity" layoutX="82.0" layoutY="183.0" prefHeight="25.0" prefWidth="57.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="363.0" prefHeight="225.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bayernMonaco.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nomeBayern" layoutX="36.0" layoutY="6.0" text="FC Bayern Monaco 2024" textFill="WHITE" />
+            <Label fx:id="PrezzoBayern" layoutX="25.0" layoutY="187.0" text="€ 139.99" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Button fx:id="bottoneBayern" layoutX="156.0" layoutY="183.0" mnemonicParsing="false" onAction="#clickBayern" prefHeight="25.0" prefWidth="30.0" text="+">
+               <font>
+                  <Font size="10.5" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="taglieBayern" layoutX="88.0" layoutY="183.0" prefHeight="25.0" prefWidth="57.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="542.0" layoutY="363.0" prefHeight="225.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/psg.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nomePSG" layoutX="58.0" layoutY="6.0" text="Kit FC PSG 2024" textFill="WHITE" />
+            <Label fx:id="prezzoPSG" layoutX="25.0" layoutY="187.0" text="€ 139.99" textFill="WHITE">
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Button fx:id="bottonePSG" layoutX="156.0" layoutY="183.0" mnemonicParsing="false" onAction="#clickPSG" prefHeight="25.0" prefWidth="30.0" text="+">
+               <font>
+                  <Font size="10.5" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="tagliePSG" layoutX="85.0" layoutY="183.0" prefHeight="25.0" prefWidth="57.0" />
+         </children>
+      </Pane>
+      <Button fx:id="buttonCart" layoutX="693.0" layoutY="21.0" mnemonicParsing="false" onAction="#clickCart" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cart.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="76.0" fitWidth="72.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="92.0" layoutY="36.0" text="FOOTBALL721SHOP">
+         <effect>
+            <Blend />
+         </effect></Label>
+      <Label layoutX="357.0" layoutY="31.0" text="HOME">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Label fx:id="countProd" alignment="TOP_CENTER" layoutX="726.0" layoutY="9.0" prefHeight="17.0" prefWidth="14.0" text="0" textFill="RED" textOverrun="CLIP">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
